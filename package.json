@@ -1,0 +1,9 @@
+{
+  "name": "benchmark-toy-nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "express": "~4.16.0"
+  }
+}
