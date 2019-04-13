@@ -3,7 +3,10 @@
   "description": "Brincadeira de benchmark com NodeJS",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "author": "Wesley Ribeiro",
   "license": "MIT",
   "dependencies": {
