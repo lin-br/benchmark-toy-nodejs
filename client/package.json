@@ -1,0 +1,18 @@
+{
+  "name": "benchmark-toy-nodejs",
+  "description": "Brincadeira de benchmark com NodeJS",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Wesley Ribeiro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.11"
+  }
+}
