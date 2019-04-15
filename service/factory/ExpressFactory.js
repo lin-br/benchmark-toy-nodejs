@@ -3,6 +3,7 @@ const SomaController = require('../../controller/SomaController');
 const SubtracaoController = require('../../controller/SubtracaoController');
 const MultiplicacaoController = require('../../controller/MultiplicacaoController');
 const DivisaoController = require('../../controller/DivisaoController');
+const FibonacciController = require('../../controller/FibonacciController');
 
 class ExpressFactory {
     static iniciarServidor(port = 3000) {
@@ -13,6 +14,7 @@ class ExpressFactory {
         app.use('/api/subtracao', SubtracaoController);
         app.use('/api/multiplicacao', MultiplicacaoController);
         app.use('/api/divisao', DivisaoController);
+        app.use('/api/fibonacci', FibonacciController);
 
         app.listen(port, function () {
             console.log(`Servidor rodando na porta ${this.address().port} pelo PID: ${process.pid}`);
