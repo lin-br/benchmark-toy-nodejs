@@ -15,7 +15,7 @@ class ExpressFactory {
         app.use('/api/divisao', DivisaoController);
 
         app.listen(port, function () {
-            console.log('Servidor rodando na porta: %d', this.address().port);
+            console.log(`Servidor rodando na porta ${this.address().port} pelo PID: ${process.pid}`);
         })
     }
 }

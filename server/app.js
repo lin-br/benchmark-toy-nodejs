@@ -1,3 +1,4 @@
-const expressFactory = require('./service/factory/ExpressFactory');
+const Server = require('./Server');
+let vaiUtilizarCluster = process.argv[2];
 
-expressFactory.iniciarServidor(process.env.PORT || 3000);
+Server.iniciarServidor(vaiUtilizarCluster);
