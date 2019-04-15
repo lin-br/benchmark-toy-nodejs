@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node" type="NodeJSConfigurationType" singleton="false" application-parameters="teste" path-to-js-file="server/app.js" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="node" type="NodeJSConfigurationType" singleton="false" application-parameters="teste" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
     <envs>
       <env name="DEBUG" value="benchmark-toy-nodejs:*" />
     </envs>
