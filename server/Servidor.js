@@ -3,12 +3,12 @@ const OperariosService = require('./service/OperariosService');
 const cpus = require('os').cpus();
 const cluster = require('cluster');
 
-class Server {
+class Servidor {
 
     static iniciarServidor(vaiUtilizarCluster = true) {
         if (vaiUtilizarCluster === true && cluster.isMaster) {
             OperariosService.iniciarOperarios(cpus);
-            Server.configurarMaster();
+            Servidor.configurarMaster();
         } else {
             ExpressFactory.iniciarServidor(process.env.PORT || 3000);
         }
@@ -26,4 +26,4 @@ class Server {
     }
 }
 
-module.exports = Server;
+module.exports = Servidor;

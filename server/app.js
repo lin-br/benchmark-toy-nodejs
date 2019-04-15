@@ -1,4 +1,4 @@
-const Server = require('./Server');
+const Servidor = require('./Servidor');
 let vaiUtilizarCluster = process.argv[2];
 
-Server.iniciarServidor(vaiUtilizarCluster);
+Servidor.iniciarServidor(vaiUtilizarCluster);
