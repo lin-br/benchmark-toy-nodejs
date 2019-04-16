@@ -1,4 +1,4 @@
-const ExpressFactory = require('./service/factory/ExpressFactory');
+const ConfigExpressService = require('./service/factory/ConfigExpressService');
 const OperariosService = require('./service/OperariosService');
 const cpus = require('os').cpus();
 const cluster = require('cluster');
@@ -10,7 +10,7 @@ class Servidor {
             OperariosService.iniciarOperarios(cpus);
             Servidor.configurarMaster();
         } else {
-            ExpressFactory.iniciarServidor(process.env.PORT || 3000);
+            ConfigExpressService.getExpress(process.env.PORT || 3000);
         }
     }
 

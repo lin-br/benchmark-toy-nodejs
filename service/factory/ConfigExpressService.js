@@ -5,8 +5,8 @@ const MultiplicacaoController = require('../../controller/MultiplicacaoControlle
 const DivisaoController = require('../../controller/DivisaoController');
 const FibonacciController = require('../../controller/FibonacciController');
 
-class ExpressFactory {
-    static iniciarServidor(port = 3000) {
+class ConfigExpressService {
+    static getExpress(port = 3000) {
         const app = express();
 
         app.use(express.json());
@@ -22,4 +22,4 @@ class ExpressFactory {
     }
 }
 
-module.exports = ExpressFactory;
+module.exports = ConfigExpressService;
