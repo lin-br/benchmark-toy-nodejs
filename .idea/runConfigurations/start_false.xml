@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="start true" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
-    <package-json value="$PROJECT_DIR$/server/package.json" />
+  <configuration default="false" name="start false" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
     <command value="start" />
-    <arguments value="true" />
+    <arguments value="false" />
     <node-interpreter value="project" />
     <package-manager value="yarn" />
     <envs />
