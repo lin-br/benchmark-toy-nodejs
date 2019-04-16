@@ -51,15 +51,15 @@ npm start false
 variável de ambiente PORT, com isso o projeto altera automaticamente a porta da API.
 
 Os _endpoints_ iniciados através da API são os seguintes:
-- [http://localhost:3000/api/soma]
+- [http://localhost:3000/api/soma](http://localhost:3000/api/soma)
     - Realiza a soma de todos os números informados no corpo da requisição.
-- [http://localhost:3000/api/subtracao]
+- [http://localhost:3000/api/subtracao](http://localhost:3000/api/subtracao)
     - Realiza a subtração de todos os números informados no corpo da requisição.
-- [http://localhost:3000/api/multiplicacao]
+- [http://localhost:3000/api/multiplicacao](http://localhost:3000/api/multiplicacao)
     - Realiza a multiplicação de todos os números informados no corpo da requisição.
-- [http://localhost:3000/api/divisao]
+- [http://localhost:3000/api/divisao](http://localhost:3000/api/divisao)
     - Realiza a divisão de todos os números informados no corpo da requisição.
-- [http://localhost:3000/api/fibonacci]
+- [http://localhost:3000/api/fibonacci](http://localhost:3000/api/fibonacci)
     - _Endpoint_ utilizado para sobrecarregar o processador.
     
 Para as requisições de `SOMA`, `SUBTRAÇÃO`, `MULTIPLICAÇÃO` e `DIVISÃO` é necessário informar
