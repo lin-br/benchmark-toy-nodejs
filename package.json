@@ -7,8 +7,16 @@
   "scripts": {
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lin-br/nodejs-brincando-benchmark.git"
+  },
   "author": "Wesley Ribeiro",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lin-br/nodejs-brincando-benchmark/issues"
+  },
+  "homepage": "https://github.com/lin-br/nodejs-brincando-benchmark#readme",
   "dependencies": {
     "express": "~4.16.0"
   },
