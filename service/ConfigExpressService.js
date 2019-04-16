@@ -1,9 +1,9 @@
 const express = require('express');
-const SomaController = require('../../controller/SomaController');
-const SubtracaoController = require('../../controller/SubtracaoController');
-const MultiplicacaoController = require('../../controller/MultiplicacaoController');
-const DivisaoController = require('../../controller/DivisaoController');
-const FibonacciController = require('../../controller/FibonacciController');
+const SomaController = require('../controller/SomaController');
+const SubtracaoController = require('../controller/SubtracaoController');
+const MultiplicacaoController = require('../controller/MultiplicacaoController');
+const DivisaoController = require('../controller/DivisaoController');
+const FibonacciController = require('../controller/FibonacciController');
 
 class ConfigExpressService {
     static getExpress(port = 3000) {

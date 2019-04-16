@@ -1,4 +1,4 @@
-const ConfigExpressService = require('./service/factory/ConfigExpressService');
+const ConfigExpressService = require('./service/ConfigExpressService');
 const OperariosService = require('./service/OperariosService');
 const cpus = require('os').cpus();
 const cluster = require('cluster');
